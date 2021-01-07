@@ -4,7 +4,7 @@
 
 This sample illustrates how to change the expander icon color of the Master-Details View in WinForms DataGrid.
 
-In SfDataGrid, You can change the color of the expander icon of the master details view as shown in the following code example.  
+In SfDataGrid, You can change the color of the expander icon of the master details view as given below.  
 
 ```c#
 typeof(DataGridStyle).GetProperty("DetailsViewExpanderColor", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).SetValue(this.sfDataGrid1.Style, Color.Red);
